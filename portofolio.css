@@ -138,7 +138,7 @@ h4:hover{
     background: #E4E2DD;
     padding: 20px;
     position: absolute;
-    top: 1010px;
+    top: 1050px;
     left: 40.5%;
     border-radius: 20px;
     color: #262626;
@@ -185,7 +185,7 @@ h4:hover{
     background: #E4E2DD;
     padding: 20px;
     position: absolute;
-    top: 1055px;
+    top: 1100px;
     left: 40.5%;
     border-radius: 20px;
     color: #262626;
@@ -233,7 +233,7 @@ h4:hover{
     background: #E4E2DD;
     padding: 20px;
     position: absolute;
-    top: 1105px;
+    top: 1150px;
     left: 40.5%;
     border-radius: 20px;
     color: #262626;
@@ -262,6 +262,117 @@ h4:hover{
     transform: rotate(45deg);
 }
 h4:hover + .conten-tooltip3{
+    visibility: visible;
+    opacity: 1;
+}
+.conten-tooltip4 {
+    width: 600px;
+    background: #E4E2DD;
+    padding: 20px;
+    position: absolute;
+    top: 1000px;
+    left: 40.5%;
+    border-radius: 20px;
+    color: #262626;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.conten-tooltip4 h3{
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.conten-tooltip4 p{
+    line-height: 1.4;
+}
+.conten-tooltip4::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #E4E2DD;
+    top: -5px;
+    left: 10%;
+    transform: rotate(45deg);
+}
+h4:hover + .conten-tooltip4{
+    visibility: visible;
+    opacity: 1;
+}
+.conten-tooltip5 {
+    width: 600px;
+    background: #E4E2DD;
+    padding: 20px;
+    position: absolute;
+    top: 965px;
+    left: 40.5%;
+    border-radius: 20px;
+    color: #262626;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.conten-tooltip5 h3{
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.conten-tooltip5 p{
+    line-height: 1.4;
+}
+.conten-tooltip5::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #E4E2DD;
+    top: -5px;
+    left: 10%;
+    transform: rotate(45deg);
+}
+h4:hover + .conten-tooltip5{
+    visibility: visible;
+    opacity: 1;
+}
+.conten-deskripsi1 {
+    width: 600px;
+    background: #E4E2DD;
+    padding: 20px;
+    position: absolute;
+    top: 965px;
+    left: 40.5%;
+    border-radius: 20px;
+    color: #262626;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.conten-deskripsi1 h3{
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.conten-deskripsi1 p{
+    line-height: 1.4;
+}
+.conten-deskripsi1::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #E4E2DD;
+    top: -5px;
+    left: 10%;
+    transform: rotate(45deg);
+}
+h4:hover + .conten-deskripsi1{
     visibility: visible;
     opacity: 1;
 }
