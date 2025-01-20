@@ -11,6 +11,9 @@ body {
     background-color: #2B2B2B;
     color: #E4E2DD;
 }
+audio {
+    display: none;
+}
 
 #header {
     width: 100%;
